@@ -23,7 +23,6 @@ class Component:
     pin_nets: dict[int, Net]
 
 
-
 class Design:
     Components: dict[str, Component]
     Nets: dict[str, Net]
